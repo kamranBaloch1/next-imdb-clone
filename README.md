@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+
+# IMDb Clone
+
+A fully responsive IMDb clone built with **Next.js** using the latest app routing features and integrated with the **IMDb API** for real-time movie data fetching. The project includes a **dark and light mode** toggle to enhance user experience across different themes.
+
+## Features
+
+- 🔍 **Real-time Data Fetching**: Fetch movie details, ratings, and actor profiles directly from the IMDb API.
+- 🌗 **Dark and Light Mode**: Toggle between dark and light themes for better accessibility and user preference.
+- 🚀 **Server-Side Rendering (SSR)** and **Client-Side Rendering (CSR)** for improved performance and SEO.
+- 📱 **Responsive Design**: Works seamlessly across desktop and mobile devices.
+- ⚙️ **Dynamic Routing**: Powered by Next.js app routing to handle dynamic pages for movie listings and actor profiles.
+
+## Technologies Used
+
+- **Next.js**: For building the app with the latest app routing features.
+- **IMDb API**: To fetch movie data and provide real-time information.
+- **CSS/SCSS**: For styling the application and ensuring responsive layouts.
+- **React Context API**: To handle theme switching between dark and light modes.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow the instructions below:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- **Node.js** (v14 or later)
+- **npm** or **yarn**
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone git@github.com:kamranBaloch1/next-imdb-clone.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd imdb-clone
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+4. Create a `.env.local` file in the root directory and add your **IMDb API Key**:
+
+   ```bash
+     API_KEY=your_imdb_api_key
+   ```
+
+5. Run the development server:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   The app will be available at `http://localhost:3000`.
+
+## Project Structure
+
+```plaintext
+├── public/             # Static files (images, icons, etc.)
+├── src/                # Source code
+│   ├── components/     # Reusable components
+│   ├── pages/          # Next.js pages and routing
+│   ├── styles/         # Global and component-specific styles
+│   └── utils/          # Helper functions and utilities
+└── README.md           # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Feel free to contribute to this project by submitting a pull request or reporting any issues in the [issues](https://github.com/kamranBaloch1/imdb-clone/issues) section of this repository.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 **Kamran Baloch**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- GitHub: [kamranBaloch1](https://github.com/kamranBaloch1)
+- LinkedIn: [kamran-baloch](https://www.linkedin.com/in/kamran-baloch/)
+- Instagram: [kamran_baloch__](https://www.instagram.com/kamran_baloch__)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
