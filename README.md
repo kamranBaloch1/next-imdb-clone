@@ -16,7 +16,7 @@ A fully responsive IMDb clone built with **Next.js** using the latest app routin
 
 - **Next.js**: For building the app with the latest app routing features.
 - **IMDb API**: To fetch movie data and provide real-time information.
-- **CSS/SCSS**: For styling the application and ensuring responsive layouts.
+- **TailwindCss**: For styling the application and ensuring responsive layouts.
 - **React Context API**: To handle theme switching between dark and light modes.
 
 ## Getting Started
